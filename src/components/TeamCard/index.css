@@ -1,0 +1,57 @@
+.list-of-teams {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 12px;
+  width: 90%;
+  height: 110px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-of-teams {
+    padding: 20px;
+    width: 95%;
+  }
+}
+
+.link-item {
+  text-decoration: none;
+  width: 50%;
+}
+
+.team-logo {
+  width: 80px;
+  height: 55px;
+}
+
+.team-name-heading {
+  font-family: Bree Serif;
+  color: white;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-name-heading {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team-logo {
+    width: 75px;
+    height: 80px;
+  }
+}
